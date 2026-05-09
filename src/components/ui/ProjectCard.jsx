@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
     category,
   } = project;
 
-  console.log("ProjectCard Props:", project); // Debugging log
+  // console.log("ProjectCard Props:", project); // Debugging log
 
   // Convert technologies string into array
   const techArray = technologies
